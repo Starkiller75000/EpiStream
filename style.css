@@ -1,0 +1,69 @@
+h1, p {
+    text-align: left;
+    margin: 10px 10px;
+    z-index: 2;
+}
+
+a#info-text {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+#info-text {
+    margin-left: 90px;
+}
+
+body {
+    margin: 0;
+    width: 440px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.top-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: rgb(18, 18, 18);
+    left: 0;
+    height: 50px;
+    width: 440px;
+    border-bottom: 1px solid black;
+}
+
+.white-version {
+    position: relative;
+    background: rgba(240, 240, 240, 1);
+    color: rgb(120, 120, 120);
+}
+
+#stream {
+    position: absolute;
+    margin-top: 15px;
+    z-index: 99;
+    margin-left: 200px;
+}
+
+#search-btn {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 15px;
+    z-index: 10;
+}
+
+#twitch-link {
+    width: 150px;
+    height: 100px;
+    margin: 150px;
+}
